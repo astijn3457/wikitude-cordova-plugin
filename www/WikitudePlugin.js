@@ -147,7 +147,7 @@
      */
 	WikitudePlugin.prototype.setOnUrlInvokeCallback = function(onUrlInvokeCallback) {
 		cordova.exec(onUrlInvokeCallback, this.onWikitudeError, "WikitudePlugin", "onUrlInvoke", [""]);
-    };
+    	};
 
 
 	/**
@@ -185,7 +185,7 @@
 	 *  @param imagePathInBundleorNullForPhotoLibrary If a file path or file name is given, the generated screenshot will be saved in the application bundle. Passing null will save the photo in the device photo library.
 	 */
 	WikitudePlugin.prototype.captureScreen = function(successCallback, errorCallback, includeWebView, imagePathInBundleOrNullForPhotoLibrary)
-    {
+    	{
 		cordova.exec(successCallback, errorCallback, "WikitudePlugin", "captureScreen", [includeWebView, imagePathInBundleOrNullForPhotoLibrary]);
 	};
 
