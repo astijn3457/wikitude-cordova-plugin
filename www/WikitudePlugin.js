@@ -10,7 +10,6 @@
 		 *  You can obtain a free trial key at http =//www.wikitude.com/developer/licenses .
 		 */
 
-		this._sdkKey = "ENTER-YOUR-KEY-HERE";
 		/**
 		 *  The Wikitude SDK can run in different modes.
 		 *      * Geo means, that objects are placed at latitude/longitude positions.
@@ -87,10 +86,10 @@
 	 *                                      	}
 	 *                               	}
 	 */
-	WikitudePlugin.prototype.loadARchitectWorld = function(successCallback, errorCallback, architectWorldPath, requiredFeatures, startupConfiguration) {
+	WikitudePlugin.prototype.loadARchitectWorld = function(sdkKey, successCallback, errorCallback, architectWorldPath, requiredFeatures, startupConfiguration) {
 
 		cordova.exec(successCallback, errorCallback, "WikitudePlugin", "open", [{
-			"SDKKey": this._sdkKey,
+			"SDKKey": sdkKey,
 			"ARchitectWorldURL": architectWorldPath,
 			"RequiredFeatures": requiredFeatures,
 		    "StartupConfiguration" : startupConfiguration
