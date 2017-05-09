@@ -3,6 +3,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="com.wikitude.phonegap.WikitudePlugin"
     version="6.1.0">
+    
+    <plugin name="WikitudePlugin" value="com.wikitude.phonegap.WikitudePlugin"/>
 
     <name>Augmented Reality - Wikitude SDK Plugin</name>
     
