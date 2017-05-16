@@ -1,10 +1,10 @@
 dependencies {
-    compile (name: 'wikitudesdk.aar', ext:'aar')
+    compile (name: 'wikitudesdk', ext:'aar')
 }
 
 repositories {
     flatDir{
-        dirs 'libs'
+        dirs 'wikitude-cordova-plugin/src/android/libs/'
     }
 }
 
