@@ -1,5 +1,5 @@
 dependencies {
-    compile (name: 'wikitudesdk', ext:'aar')
+    compile (name: 'wikitudesdk.aar', ext:'aar')
 }
 
 repositories {
