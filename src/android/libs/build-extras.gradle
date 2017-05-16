@@ -4,7 +4,7 @@ dependencies {
 
 repositories {
     flatDir{
-        dirs 'wikitude-cordova-plugin/src/android/libs/'
+        dirs 'libs/'
     }
 }
 
