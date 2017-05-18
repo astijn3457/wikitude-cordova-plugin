@@ -26,6 +26,8 @@
     <js-module src="www/WikitudePlugin.js" name="WikitudePlugin">
         <clobbers target="WikitudePlugin" />
     </js-module>
+    
+    <plugin name="WikitudePlugin" value="com.wikitude.phonegap.WikitudePlugin"/>
 
     <!-- android -->
     <platform name="android">
