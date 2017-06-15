@@ -322,4 +322,4 @@
 
 	/* Export a new WikitudePlugin instance */
 	var wikitudePlugin = new WikitudePlugin();
-	module.exports = wikitudePlugin;
+	module.exports = wikitudePlugin();
